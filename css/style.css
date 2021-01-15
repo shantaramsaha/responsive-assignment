@@ -1,0 +1,155 @@
+
+.hero h1{
+    color: #FA804C;
+    font-size: 70px;
+    font-weight: bold;
+}
+.hero h2{
+    color: #363958;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #3949D9;
+    border-color: #0d6efd;
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
+    border-radius: 11%;
+    
+}
+.herocontant{
+    margin-top: 8%;
+}
+.card-img, .card-img-top {
+    
+    background-color: #F1F1F1
+}
+.cardh{
+    float: left;
+    margin: 13px;
+    
+}
+.cardhh{
+    color: #FA804C;
+    font-weight: bold;
+}
+
+
+
+
+.main{
+  max-width: 1200px;
+  margin: 15% 5% 5% 5%;
+
+}
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+.maintatle{
+    color: #61637C;
+    font-weight: bold;
+    font-size: 50px;
+}
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 5%;
+  border-radius: 5%;
+}
+
+.card_content {
+  padding: 1rem;
+  
+}
+
+.card_title {
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #000;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+.card_image{
+    background-color: #F1F1F1;
+    
+}
+
+.calltoaction{
+    padding: 5%;
+    box-shadow: 0 20px 40px -14px rgba(124, 124, 124, 0.25);
+    width: 100%;
+    
+
+}
+
+.iconimg{
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.iconimg img{
+    width: 100%;
+}
+.contantbody h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #363958;
+    margin-top: 5%;
+}
+.contantbody p{
+    font-size: 16px;
+}
+
+.contantbody{
+    margin-left: 10%;
+}
+
+.caltoactionlest{
+    margin: 10% 0% 10% 0%;
+}
